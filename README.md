@@ -16,6 +16,9 @@ increased in both magnitude and range.
 Per-packet as opposed to per-slot delays were chosen because inter-packet timing differences can 
 still survive in a group of sequestered packets and assist an attacker.
 
+This package should be installed on bare-metal to process all networking activity by the host 
+otherwise an attacker can affect traffic outside the VM, achieving their objective.
+
 
 See also: https://phabricator.whonix.org/T530
 ## How to install `latency-obfuscator` using apt-get ##
